@@ -32,8 +32,8 @@ enum dilemma_keymap_layers {
 // #define DILEMMA_AUTO_SNIPING_ON_LAYER LAYER_POINTER
 
 #define ESC_MED LT(LAYER_MEDIA, KC_ESC)
-#define SPC_NUM LT(LAYER_NUMERAL, KC_SPC)
-#define TAB_SYM LT(LAYER_SYMBOLS, KC_TAB)
+#define SPC_SYM LT(LAYER_SYMBOLS, KC_SPC)
+#define TAB_NUM LT(LAYER_NUMERAL, KC_TAB)
 #define ENT_NAV LT(LAYER_NAVIGATION, KC_ENT)
 #define BSP_NUM LT(LAYER_NUMERAL, KC_BSPC)
 #define PT_Z LT(LAYER_POINTER, KC_Z)
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
        LCTL_T(KC_A), LALT_T(KC_S), LGUI_T(KC_D), LSFT_T(KC_F), KC_G, KC_H, LSFT_T(KC_J), LGUI_T(KC_K), LALT_T(KC_L), LCTL_T(KC_QUOT),
        PT_Z,    RALT_T(KC_X),    KC_C,    KC_V,    KC_B,    KC_N,    KC_M, KC_COMM,  RALT_T(KC_DOT), PT_SLSH,
-                      ESC_MED, TAB_SYM, SPC_NUM, MEH_T(KC_BSPC), ENT_NAV, KC_MUTE
+                      ESC_MED, TAB_NUM, SPC_SYM, MEH_T(KC_BSPC), ENT_NAV, KC_MUTE
   ),
 
 /*
