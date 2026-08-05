@@ -23,3 +23,6 @@
 #define SPLIT_LED_STATE_ENABLE
 
 #define ENCODER_RESOLUTION 4
+
+// Natural vertical drag-scroll direction.
+#define DILEMMA_DRAGSCROLL_REVERSE_Y
