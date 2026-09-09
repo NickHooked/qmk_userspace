@@ -40,4 +40,4 @@
 #define RGBLIGHT_LED_COUNT 72
 
 // Natural vertical drag-scroll direction.
-#define DILEMMA_DRAGSCROLL_REVERSE_Y
+#define BK_POINTING_DEVICE_DRAGSCROLL_REVERSE_Y
